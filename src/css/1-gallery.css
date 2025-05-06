@@ -1,0 +1,21 @@
+.main-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px 24px;
+  list-style: none;
+  padding: 0;
+}
+
+
+.gallery-image {
+  max-width: 360px;
+  height: 300px;
+  width: calc(100% - 48px) / 3;
+  object-fit: cover;
+}
